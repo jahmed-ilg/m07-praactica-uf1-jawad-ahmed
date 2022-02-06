@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "c106e61a-b49b-4053-a8be-279bf2baea2b",
+		"name": "CollectionNivell1Fase3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "RequestNivell1Fase3HelloJawad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{Port}}/jawad          ",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{Port}}",
+					"path": [
+						"jawad          "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RequestNivell1Fase3Hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{IP}}:{{Port}}",
+					"host": [
+						"{{IP}}"
+					],
+					"port": "{{Port}}"
+				}
+			},
+			"response": []
+		}
+	]
+}
